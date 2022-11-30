@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "mounts": [{ "source": "test", "target": "/test", "type": "bind" }]
+}
