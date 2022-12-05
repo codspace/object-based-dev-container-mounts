@@ -1,4 +1,4 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "mounts": [{ "source": "test", "target": "/test" }]
+    "mounts": [{ "source": "test", "target": "/test", type: "volume" }]
 }
